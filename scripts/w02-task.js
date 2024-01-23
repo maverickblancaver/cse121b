@@ -6,7 +6,7 @@
 
 let fullName = 'Maverick Blancaver';
 let currentYear  
-let profilePicture = 'images/wo2photo.jpeg';
+let profilePicture = 'images/myphoto.png';
 
 
 
@@ -23,7 +23,7 @@ const yearElement = document.querySelector ('#year');
 
 nameElemnt.innerHTML = `<strong>${fullName}</strong>`;
 imageElement.setAttribute('src', profilePicture);
-profileImage.setAttribute("alt", `Profile image of ${wo2photo.jpeg}`);
+profileImage.setAttribute("alt", `Profile image of ${myphoto.png}`);
 
 
 /* Step 5 - Array */
