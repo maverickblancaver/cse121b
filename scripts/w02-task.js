@@ -23,7 +23,7 @@ const yearElement = document.querySelector ('#year');
 
 const profileImage = document.getElementById('profileImage');
 profileImage.setAttribute('src', profilePicture);
-profileImage.setAttribute('alt', `Profile image of Maverick Blancaver`);
+profileImage.setAttribute('alt', `Placeholder Image`);
 
 
 /* Step 5 - Array */
