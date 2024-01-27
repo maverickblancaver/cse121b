@@ -1,37 +1,63 @@
 /* LESSON 3 - Programming Tasks */
 
 /* FUNCTIONS */
-// Function Definition - Add Numbers
+/* Function Declaration */
+function add(number1, number2) {
+    return number1 + number2;
+}
+
+/* Function Declaration */
 function addNumbers() {
     const num1 = parseFloat(document.getElementById('add1').value);
     const num2 = parseFloat(document.getElementById('add2').value);
-    const sum = num1 + num2;
-    document.getElementById('sum').value = sum;
+    document.getElementById('sum').value = add(num1, num2);
 }
 
-// Function Expression - Subtract Numbers
-const subtractNumbers = function () {
-    const num1 = parseFloat(document.getElementById('subtract1').value);
-    const num2 = parseFloat(document.getElementById('subtract2').value);
-    const difference = num1 - num2;
-    document.getElementById('difference').value = difference;
+/* Event Listener */
+document.getElementById('addNumbers').addEventListener('click', addNumbers);
+
+/* Function Expression */
+const subtract = function(number1, number2) {
+    return number1 - number2;
 };
 
-// Arrow Function - Multiply Numbers
+/* Function Expression */
+const subtractNumbers = function() {
+    const num1 = parseFloat(document.getElementById('subtract1').value);
+    const num2 = parseFloat(document.getElementById('subtract2').value);
+    document.getElementById('difference').value = subtract(num1, num2);
+};
+
+/* Event Listener */
+document.getElementById('subtractNumbers').addEventListener('click', subtractNumbers);
+
+/* Arrow Functions */
+const multiply = (number1, number2) => number1 * number2;
+
+/* Arrow Function */
 const multiplyNumbers = () => {
     const num1 = parseFloat(document.getElementById('factor1').value);
     const num2 = parseFloat(document.getElementById('factor2').value);
-    const product = num1 * num2;
-    document.getElementById('product').value = product;
+    document.getElementById('product').value = multiply(num1, num2);
 };
 
-// Open Function Use - Divide Numbers
-function divideNumbers() {
+/* Event Listener */
+document.getElementById('multiplyNumbers').addEventListener('click', multiplyNumbers);
+
+/* Your Choice - Function Declaration and Expression */
+function divide(dividend, divisor) {
+    return dividend / divisor;
+}
+
+const divideNumbers = () => {
     const dividend = parseFloat(document.getElementById('dividend').value);
     const divisor = parseFloat(document.getElementById('divisor').value);
-    const quotient = dividend / divisor;
-    document.getElementById('quotient').value = quotient;
-}
+    document.getElementById('quotient').value = divide(dividend, divisor);
+};
+
+/* Event Listener */
+document.getElementById('divideNumbers').addEventListener('click', divideNumbers);
+
 
 // Decision Structure
 
