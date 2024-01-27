@@ -1,6 +1,7 @@
 /* LESSON 3 - Programming Tasks */
 
 /* FUNCTIONS */
+
 /* Function Declaration */
 function add(number1, number2) {
     return number1 + number2;
