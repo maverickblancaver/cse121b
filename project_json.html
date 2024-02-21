@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON Data Display</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Example</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
 
-        h1 {
-            color: #333;
-        }
+    header {
+      background-color: #333;
+      padding: 15px;
+      color: white;
+    }
 
-        #jsonData {
-            background-color: #f4f4f4;
-            padding: 20px;
-            border-radius: 8px;
-            overflow: auto;
-            max-width: 800px;
-            margin-top: 20px;
-        }
-    </style>
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
 </head>
-<body>
-    <h1>JSON Data Display</h1>
-    <div id="jsonData"></div>
 
-    <!-- Reference the external JavaScript file -->
-    <script src="script.js"></script>
+<body>
+  <header>
+    <button onclick="location.href='project.html'">Back to Home</button>
+    <h1>JSON Example</h1>
+  </header>
+  <main>
+    <div id="userData"></div>
+  </main>
+  <footer>
+    &copy;<span id="year"></span> | About Me | CSE 121b
+  </footer>
+  <script src="scripts/json-example.js"></script>
 </body>
+
 </html>
