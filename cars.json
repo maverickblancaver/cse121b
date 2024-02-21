@@ -1,0 +1,38 @@
+[
+    {
+      "carBrand": "Tesla",
+      "carModel": "Model S",
+      "manufacturingYear": 2022,
+      "carImage": "images/tesla.png",
+      "features": ["Autopilot", "Electric Powertrain", "Advanced Safety Features", "Panoramic Roof"]
+    },
+    {
+      "carBrand": "Toyota",
+      "carModel": "Camry",
+      "manufacturingYear": 2023,
+      "carImage": "images/toyota.png",
+      "features": ["Adaptive Cruise Control", "Lane Departure Warning", "Smart Key System", "Apple CarPlay"]
+    },
+    {
+      "carBrand": "Ford",
+      "carModel": "Mustang",
+      "manufacturingYear": 2022,
+      "carImage": "images/ford.png",
+      "features": ["Launch Control", "Selectable Drive Modes", "Performance Brakes", "Sync 4 Infotainment System"]
+    },
+    {
+      "carBrand": "Honda",
+      "carModel": "Civic",
+      "manufacturingYear": 2023,
+      "carImage": "images/honda.png",
+      "features": ["Honda Sensing Suite", "Lane Keeping Assist", "Adaptive Cruise Control", "Apple CarPlay"]
+    },
+    {
+      "carBrand": "Chevrolet",
+      "carModel": "Silverado",
+      "manufacturingYear": 2022,
+      "carImage": "images/chevrolet.png",
+      "features": ["Trailering Technology", "Advanced Trailering System", "Chevrolet Infotainment 3", "Built-in Wi-Fi"]
+    }
+  ]
+  

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Topics</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      padding: 15px;
+      text-align: center;
+      color: white;
+    }
+
+    button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ddd;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    picture {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Programming Topics</h1>
+  </header>
+  <nav>
+    <ul id="menu">
+      <li><a id="toggleMenu">&equiv;</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="w01-task.html">W1 Task</a></li>
+      <li><a href="w03-task.html">W3 Task</a></li>
+      <li><a href="w04-task.html">W4 Task</a></li>
+      <li><a href="w05-task.html">W5 Task</a></li>
+      <li><a href="project.html">Project</a></li>
+    </ul>
+  </nav>
+  <main>
+    <!-- Add new buttons below -->
+    <button onclick="location.href='project_conditional_branching.html'">Conditional Branching</button>
+    <button onclick="location.href='project_tl_arrays.html'">Template Literals & Arrays</button>
+    <button onclick="location.href='fetch-json.html'">Fetch JSON</button>
+  </main>
+  <footer>
+    &copy;<span id="year"></span> | About Me | CSE 121b
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/w02-task.js"></script>
+</body>
+
+</html>

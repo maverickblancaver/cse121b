@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array with Template Literals</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #333;
+      padding: 15px;
+      color: white;
+    }
+
+    button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #333;
+      color: white;
+      border: none;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <button onclick="location.href='project.html'">Back to Home</button>
+    <h1>Array with Template Literals</h1>
+  </header>
+  <main>
+    <p id="result"></p>
+  </main>
+  <footer>
+    &copy;<span id="year"></span> | About Me | CSE 121b
+  </footer>
+  <script src="scripts/project_tl_arrays.js"></script>
+  <!-- Call the displayArray function directly -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      displayArray();
+    });
+  </script>
+</body>
+
+</html>
