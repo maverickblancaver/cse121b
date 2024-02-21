@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // Fetch and display JSON data
-    fetch('https://byui-cse.github.io/cse121b-ww-course/resources/temples.json')
+    fetch('sample1.json')
       .then(response => response.json())
       .then(data => {
         const userDataElement = document.getElementById('userData');
